@@ -10,7 +10,9 @@ import UIKit
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
     @IBOutlet var collectionView: UICollectionView!
+    
     let data = Array(1...100)
+    var visibleCellDisplay = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,10 +33,12 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     }
     
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        print("Cell display \(indexPath.row)")
+        visibleCellDisplay += 1
+        print("Cell will display: \(visibleCellDisplay)")
     }
     
     func collectionView(_ collectionView: UICollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        print("ENd display \(indexPath.row)")
+        visibleCellDisplay -= 1
+        print("Cell will end displaying \(visibleCellDisplay)")
     }
 }
