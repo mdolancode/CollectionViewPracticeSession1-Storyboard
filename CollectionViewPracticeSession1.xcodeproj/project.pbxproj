@@ -13,6 +13,7 @@
 		C51A71C22CF3DF4500B5B6D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51A71C02CF3DF4500B5B6D6 /* Main.storyboard */; };
 		C51A71C42CF3DF4700B5B6D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51A71C32CF3DF4700B5B6D6 /* Assets.xcassets */; };
 		C51A71C72CF3DF4700B5B6D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51A71C52CF3DF4700B5B6D6 /* LaunchScreen.storyboard */; };
+		C51A71CF2CF3EAA200B5B6D6 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A71CE2CF3EAA200B5B6D6 /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C51A71C32CF3DF4700B5B6D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C51A71C62CF3DF4700B5B6D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C51A71C82CF3DF4700B5B6D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51A71CE2CF3EAA200B5B6D6 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C51A71BA2CF3DF4500B5B6D6 /* AppDelegate.swift */,
 				C51A71BC2CF3DF4500B5B6D6 /* SceneDelegate.swift */,
 				C51A71BE2CF3DF4500B5B6D6 /* ViewController.swift */,
+				C51A71CE2CF3EAA200B5B6D6 /* CustomCollectionViewCell.swift */,
 				C51A71C02CF3DF4500B5B6D6 /* Main.storyboard */,
 				C51A71C32CF3DF4700B5B6D6 /* Assets.xcassets */,
 				C51A71C52CF3DF4700B5B6D6 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				C51A71BF2CF3DF4500B5B6D6 /* ViewController.swift in Sources */,
 				C51A71BB2CF3DF4500B5B6D6 /* AppDelegate.swift in Sources */,
 				C51A71BD2CF3DF4500B5B6D6 /* SceneDelegate.swift in Sources */,
+				C51A71CF2CF3EAA200B5B6D6 /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
